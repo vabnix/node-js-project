@@ -7,7 +7,7 @@ const app = express();
 
 //connect to mongodb
 
-const mongodbURI = 'mongodb+srv://node-user:SdPUKZaKRVeQOOuG@development.ktayswy.mongodb.net/node-tut?retryWrites=true&w=majority&appName=development';
+const mongodbURI = 'mongodb+srv://<user>:<password>@development.ktayswy.mongodb.net/node-tut?retryWrites=true&w=majority&appName=development';
 
 //mongoose.connect(mongodbURI,{useNewUrlParser: true, useUnifiedTopology: true});
 mongoose.connect(mongodbURI)
